@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class AwsSnsDemoApplication {
-    private final String accessKey = "AKIAWX2BTEMZ7ZRBGNFE";
+    private final String accessKey = "";
     private final String secretKey = "";
 
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class AwsSnsDemoApplication {
         BasicAWSCredentials basicAWSCredentials = new BasicAWSCredentials(accessKey, secretKey);
         return (AmazonSNSAsyncClient) AmazonSNSAsyncClientBuilder
                 .standard()
-                .withRegion(Regions.US_EAST_1)
+                .withRegion(Regions.US_WEST_1)
                 .withCredentials(new AWSStaticCredentialsProvider(basicAWSCredentials))
                 .build();
 
