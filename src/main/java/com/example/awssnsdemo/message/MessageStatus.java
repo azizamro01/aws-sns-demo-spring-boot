@@ -1,4 +1,4 @@
-package com.example.awssnsdemo;
+package com.example.awssnsdemo.message;
 
 public enum MessageStatus {
     DELIVERED,

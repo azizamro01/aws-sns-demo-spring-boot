@@ -1,5 +1,7 @@
-package com.example.awssnsdemo;
+package com.example.awssnsdemo.sns;
 
+import com.example.awssnsdemo.message.MessageRequest;
+import com.example.awssnsdemo.message.MessageResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;

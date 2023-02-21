@@ -1,8 +1,10 @@
-package com.example.awssnsdemo;
+package com.example.awssnsdemo.sns;
 
 import com.amazonaws.services.sns.AmazonSNSClient;
 import com.amazonaws.services.sns.model.MessageAttributeValue;
 import com.amazonaws.services.sns.model.PublishRequest;
+import com.example.awssnsdemo.message.MessageRequest;
+import com.example.awssnsdemo.message.MessageResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

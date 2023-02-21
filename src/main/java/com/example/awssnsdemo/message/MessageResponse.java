@@ -1,4 +1,4 @@
-package com.example.awssnsdemo;
+package com.example.awssnsdemo.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
