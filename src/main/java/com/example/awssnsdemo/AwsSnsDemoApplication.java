@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class AwsSnsDemoApplication {
     private final String accessKey = "AKIAWX2BTEMZ7ZRBGNFE";
-    private final String secretKey = "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";
+    private final String secretKey = "";
 
     public static void main(String[] args) {
         SpringApplication.run(AwsSnsDemoApplication.class, args);
